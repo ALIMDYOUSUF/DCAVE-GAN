@@ -1,7 +1,14 @@
 # DCAVE-GAN
 Text to image generative by using Deep conditional variational autoencoder-GAN
-# DCVAE-GAN 
 
+#How to train a text to image model:
+Download the birds and flowers and COCO caption data in Torch format.
+Download the birds and flowers and COCO image data.
+Download the text encoders for birds and flowers and COCO descriptions.
+Modify the CONFIG file to point to your data and text encoder paths.
+Run one of the training scripts, e.g. ./scripts/train_cub.sh
+
+# DCVAE-GAN 
 ### Dependencies
 python 3.6
 
